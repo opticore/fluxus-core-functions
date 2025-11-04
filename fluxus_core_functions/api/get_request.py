@@ -5,6 +5,11 @@ from fluxus_sdk.logger import logger
 from fluxus_sdk.func import fluxus_func
 
 
+@fluxus_func(
+    name="get_request",
+    description="Make a GET request to the given URL.",
+    dir_path="api/",
+)
 def get_request(
     url: Annotated[str, "URL to make the request to."],
     headers: Annotated[dict, "Headers to include in the request."] = {},
