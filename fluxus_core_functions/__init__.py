@@ -3,6 +3,8 @@ from fluxus_core_functions.api.post_request import post_request
 from fluxus_core_functions.core.print import print
 from fluxus_core_functions.core.sleep import sleep
 from fluxus_core_functions.git.clone_inventory import clone_inventory
+from fluxus_core_functions.ip_tools.nslookup import nslookup
+from fluxus_core_functions.ip_tools.ping import ping
 from fluxus_core_functions.snapshot.compare_snapshot import compare_snapshots
 from fluxus_core_functions.snapshot.create_snapshot import create_snapshot
 from fluxus_core_functions.snapshot.delete_snapshot import delete_snapshot
@@ -14,6 +16,8 @@ __fluxus__ = [
     print,
     sleep,
     clone_inventory,
+    nslookup,
+    ping,
     compare_snapshots,
     create_snapshot,
     delete_snapshot,
