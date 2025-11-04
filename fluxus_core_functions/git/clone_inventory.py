@@ -4,7 +4,7 @@ from typing import Annotated
 from fluxus_sdk.logger import logger
 from fluxus_sdk.func import fluxus_func
 from fluxus.network.models import Inventory
-from fluxus.users.models import User
+from fluxus.administration.models import User
 
 
 def get_repo_url_with_token(repo_url, token):
