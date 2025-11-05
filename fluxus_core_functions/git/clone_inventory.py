@@ -15,6 +15,7 @@ def get_repo_url_with_token(repo_url, token):
 
 @fluxus_func(
     name="clone_inventory",
+    label="Clone Inventory",
     description="Clone inventory using a personal access token.",
     dir_path="git/",
 )

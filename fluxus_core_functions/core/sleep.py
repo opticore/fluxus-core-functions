@@ -7,6 +7,7 @@ from fluxus_sdk.logger import logger
 
 @fluxus_func(
     name="sleep",
+    label="Sleep",
     description="Sleep for a given amount of time",
     dir_path="fluxus_core_functions/core",
 )

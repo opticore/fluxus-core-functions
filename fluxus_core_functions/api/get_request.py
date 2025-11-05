@@ -7,6 +7,7 @@ from fluxus_sdk.func import fluxus_func
 
 @fluxus_func(
     name="get_request",
+    label="Get Request",
     description="Make a GET request to the given URL.",
     dir_path="api/",
 )

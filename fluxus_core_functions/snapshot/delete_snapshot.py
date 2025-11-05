@@ -8,6 +8,7 @@ from fluxus.network.models import Snapshot
 
 @fluxus_func(
     name="delete_snapshot",
+    label="Delete Snapshot",
     description="Delete snapshot.",
     dir_path="snapshot/",
 )

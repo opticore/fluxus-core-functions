@@ -11,6 +11,7 @@ from fluxus_sdk.func import fluxus_func
 
 @fluxus_func(
     name="compare_snapshots",
+    label="Compare Snapshots",
     description="Compare snapshots including detailed file content and structured object differences.",
     dir_path="snapshot/",
 )

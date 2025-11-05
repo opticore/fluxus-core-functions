@@ -6,6 +6,7 @@ from fluxus_sdk.logger import logger
 
 @fluxus_func(
     name="print",
+    label="Print",
     description="Print a string to logs.",
     dir_path="core/",
 )

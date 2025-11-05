@@ -7,6 +7,7 @@ from fluxus_sdk.func import fluxus_func
 
 @fluxus_func(
     name="nslookup",
+    label="DNS Lookup",
     description="Perform a DNS lookup for the given hostname.",
     dir_path="ip_tools/",
 )

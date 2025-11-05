@@ -6,6 +6,7 @@ from fluxus_sdk.func import fluxus_func
 
 @fluxus_func(
     name="post_request",
+    label="Post Request",
     description="Make a POST request to the given URL.",
     dir_path="api/",
 )

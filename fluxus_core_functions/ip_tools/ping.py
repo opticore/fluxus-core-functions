@@ -7,6 +7,7 @@ from fluxus_sdk.func import fluxus_func
 
 @fluxus_func(
     name="ping",
+    label="Ping",
     description="Ping a host to check its reachability.",
     dir_path="ip_tools/",
 )

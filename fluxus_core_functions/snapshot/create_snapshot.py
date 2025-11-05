@@ -10,6 +10,7 @@ from fluxus.administration.models import User
 
 @fluxus_func(
     name="create_snapshot",
+    label="Create Snapshot",
     description="Create snapshot.",
     dir_path="snapshot/",
 )
