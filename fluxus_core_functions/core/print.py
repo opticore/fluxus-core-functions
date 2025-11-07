@@ -12,4 +12,6 @@ from fluxus_sdk.logger import logger
 )
 def print(string: Annotated[str, "String to print."]):
     """Print a string to logs."""
+    logger.info("I'm about to print a string...")
     logger.info(string)
+    logger.info("I just printed a string...")
