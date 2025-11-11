@@ -15,3 +15,4 @@ def print(string: Annotated[str, "String to print."]):
     logger.info("I'm about to print a string...")
     logger.info(string)
     logger.info("I just printed a string...")
+    logger.info("Another test")
